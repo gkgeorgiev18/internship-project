@@ -6,10 +6,13 @@
 
 <h1 align="center">Omne enim blog</h1>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Commits][commits-shield]][commits-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<div align="center">
+
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/issues)
+  [![GitHub Commits](https://img.shields.io/github/contributors/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/commits)
+
+</div>
 
 ## 📝 Table of Contents
 - [Description](#description)
