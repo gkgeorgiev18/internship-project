@@ -22,9 +22,9 @@
 - [Presentation and Documentation](#documentation)
 
 ## 📖 Description <a name="description"></a>
-This is our project which consists of a site that contains information about blogs, a site where users can post their blogs and the information goes to a database where it is stored. The site is built with HTML, CSS and Javascript and we used SQL for the database.
+This is our project which consists of a site that contains information about blogs, a site where users can post their blogs and the information goes to a database where it is stored. The site is built with HTML, CSS, Bootstrap and Javascript and we used SQL for the database.
 
-## Getting Started <a name="installation"></a>
+## 📮 Getting Started <a name="installation"></a>
 To get a local copy up and running follow these simple steps.
 ### Installation
 1. Clone the repo
@@ -32,6 +32,7 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/gkgeorgiev18/internship-project.git
    ```
 2. Open index.html
+![Instructions](images/instructions.png)
 
 ## 💻 Built Using <a name="built_using"></a>
 - [HTML](https://html.com/) - Website Skeleton
