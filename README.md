@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Lorem ipsum</h1>
+<h1 align="center">Omne enim blog</h1>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Commits][commits-shield]][commits-url]
@@ -19,7 +19,7 @@
 - [Presentation and Documentation](#documentation)
 
 ## 📖 Description <a name="description"></a>
-Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+This is our project which consists of a site that contains information about blogs, a site where users can post their blogs and the information goes to a database where it is stored. The site is built with HTML, CSS and Javascript and we used SQL for the database.
 
 ## Getting Started <a name="installation"></a>
 To get a local copy up and running follow these simple steps.
@@ -38,8 +38,8 @@ To get a local copy up and running follow these simple steps.
 
 ## 👥 Authors <a name="authors"></a>
 - [Georgi Georgiev](https://github.com/gkgeorgiev18) - Front-End Developer
-- [Stefan Stratev](https://github.com/sdstratev18) - Back-End Developer
+- [Petar Dyakov](https://github.com/pmdyakov18) - Back-End Developer
 
 ## 📋 Presentation and Documentation <a name="documentation"></a>
-* [Documentation](google.com)
-* [Presentation](google.com)
+* [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/pmdyakov18_codingburgas_bg/EcXHPUMsTYRPhhH-5eqNfJYBX1LT0W1euS-y__2uTEp_hg?e=yGbNxA)
+* [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/pmdyakov18_codingburgas_bg/EXqvTR5q9_NMk1pKlSuFAxEB19bsGgigQhrZZq10XYY9Dg?e=oBXanL)
