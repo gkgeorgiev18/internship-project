@@ -10,7 +10,7 @@
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/issues)
-  [![GitHub Commits](https://img.shields.io/github/commits/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/commits)
+  [![Stargazers][https://img.shields.io/github/stars/gkgeorgiev18/internship-project.svg]](https://github.com/gkgeorgiev18/internship-project/stargazers)
   [![GitHub Contributors](https://img.shields.io/github/contributors/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/graphs/contributors)
 
 </div>
@@ -23,7 +23,7 @@
 - [Presentation and Documentation](#documentation)
 
 ## 📖 Description <a name="description"></a>
-This is our project which consists of a site that contains information about blogs, a site where users can post their blogs and the information goes to a database where it is stored. The site is built with HTML, CSS, Bootstrap and Javascript and we used SQL for the database.
+This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap JavaScript and Node JS and we used SQL for the database.
 
 ## 📮 Getting Started <a name="installation"></a>
 To get a local copy up and running follow these simple steps.
@@ -39,6 +39,7 @@ To get a local copy up and running follow these simple steps.
 - [HTML](https://html.com/) - Website Skeleton
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Website Design
 - [Bootstrap](https://getbootstrap.com/) - Website Design
+- [Node JS](https://nodejs.org/en/) - Connection between the database and the website
 - [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Database
 
 ## 👥 Authors <a name="authors"></a>
