@@ -10,7 +10,6 @@
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/issues)
-  [![Stargazers][https://img.shields.io/github/stars/gkgeorgiev18/internship-project.svg]](https://github.com/gkgeorgiev18/internship-project/stargazers)
   [![GitHub Contributors](https://img.shields.io/github/contributors/gkgeorgiev18/internship-project.svg)](https://github.com/gkgeorgiev18/internship-project/graphs/contributors)
 
 </div>

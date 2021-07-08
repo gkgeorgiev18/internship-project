@@ -2,21 +2,16 @@
             box-sizing: border-box;
         }
         
-        body {
-            font-family: Arial;
-            background: #f1f1f1;
-        }
-        
         .header {
             padding: 30px;
             font-size: 40px;
             text-align: center;
-            background: white;
+            background-color: #cffffd;
         }
         
         .leftcolumn {
             float: left;
-            width: 75%;
+            width: 55%;
         }
         
         .rightcolumn {
@@ -32,7 +27,7 @@
         }
         
         .card {
-            background-color: white;
+            background-color: #cffffd;
             padding: 20px;
             margin-top: 20px;
         }
