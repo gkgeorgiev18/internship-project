@@ -22,7 +22,7 @@
 - [Presentation and Documentation](#documentation)
 
 ## 📖 Description <a name="description"></a>
-This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap JavaScript and Node JS and we used SQL for the database.
+This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap, JavaScript and Node JS and we used SQL for the database.
 
 ## 📮 Getting Started <a name="installation"></a>
 To get a local copy up and running follow these simple steps.

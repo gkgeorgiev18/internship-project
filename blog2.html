@@ -22,7 +22,7 @@
     <title>Blog 2</title>
 </head>
 
-<body>
+<body style="background-color: #91c6ff;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -31,19 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="blogs.html">Blogs</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="blogs.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Blogs
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="blog1.html">Blog 1</a></li>
-                            <li><a class="dropdown-item" href="blog2.html">Blog 2</a></li>
-                            <li><a class="dropdown-item" href="blog3.html">Blog 3</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Blogs<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog1.html">Blog 1</a></li>
+                            <li><a href="blog2.html">Blog 2</a></li>
+                            <li><a href="blog3.html">Blog 3</a></li>
                         </ul>
                     </li>
                 </div>
             </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="signin.html" class="nav-link">Sign In</a></li>
+                <li><a href="signup.html" class="nav-link">Sign Up</a></li>
+            </ul>
         </div>
     </nav>
 
