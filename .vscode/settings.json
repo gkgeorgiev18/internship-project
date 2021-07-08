@@ -2,6 +2,7 @@
     "cSpell.ignoreWords": [
         "dyakov",
         "enim",
+        "esbenp",
         "georgi",
         "georgiev",
         "msnodesqlv",
@@ -10,7 +11,9 @@
         "omne",
         "petar",
         "porro",
+        "prettier",
         "quisquam",
-        "soft"
+        "soft",
+        "vscode"
     ]
 }
