@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "hapi": "^18.1.0",
     "msnodesqlv8": "^2.2.0",
     "mssql": "^7.1.3"
   }
