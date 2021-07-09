@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/gkgeorgiev18/internship-project" rel="noopener">
-    <img src="images/logo.png" alt="Logo" width="200" height="200">
+    <img src="images/logonotext.png" alt="Logo" width="200" height="200">
   </a>
 </p>
 
