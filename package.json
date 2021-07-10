@@ -1,6 +1,23 @@
 {
+  "name": "internship-project",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"https://github.com/gkgeorgiev18/internship-project\" rel=\"noopener\">\r     <img src=\"images/logonotext.png\" alt=\"Logo\" width=\"200\" height=\"114\">\r   </a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkgeorgiev18/internship-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkgeorgiev18/internship-project/issues"
+  },
+  "homepage": "https://github.com/gkgeorgiev18/internship-project#readme",
   "dependencies": {
-    "hapi": "^18.1.0",
+    "express": "^4.17.1",
     "msnodesqlv8": "^2.2.0",
     "mssql": "^7.1.3"
   }
