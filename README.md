@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/gkgeorgiev18/internship-project" rel="noopener">
-    <img src="images/logonotext.png" alt="Logo" width="200" height="200">
+    <img src="/public/images/logonotext.png" alt="Logo" width="200" height="200">
   </a>
 </p>
 
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/gkgeorgiev18/internship-project.git
    ```
 2. Open index.html
-![Instructions](images/instructions.png)
+![Instructions](/public/images/instructions.png)
 
 ## 💻 Built Using <a name="built_using"></a>
 - [HTML](https://html.com/) - Website Skeleton
