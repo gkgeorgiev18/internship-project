@@ -3,32 +3,33 @@ const app = express();
 const path = require("path");
 
 app.use(express.static("public"));
+
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.render("index.ejs");
 });
 
 app.get("/signin", function(req, res) {
-    res.sendFile(path.join(__dirname + "/signin.html"));
+    res.render("signin.ejs");
 });
 
 app.get("/signup", function(req, res) {
-    res.sendFile(path.join(__dirname + "/signup.html"));
+    res.render("signup.ejs");
 });
 
 app.get("/blog1", function(req, res) {
-    res.sendFile(path.join(__dirname + "/blog1.html"));
+    res.render("blog1.ejs");
 });
 
 app.get("/blog2", function(req, res) {
-    res.sendFile(path.join(__dirname + "/blog2.html"));
+    res.render("blog2.ejs");
 });
 
 app.get("/blog3", function(req, res) {
-    res.sendFile(path.join(__dirname + "/blog3.html"));
+    res.render("blog3.ejs");
 });
 
 app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname + "/error.html"));
+    res.render("error.ejs");
 });
 
 app.listen(1337, function(req, res) {

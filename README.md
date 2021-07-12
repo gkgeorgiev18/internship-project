@@ -38,18 +38,20 @@ To get a local copy up and running follow these simple steps.
    ```
 2. Type in the following commands in the command prompt
 
-```sh
-npm init
-npm install express
-npm install msnodesqlv8
-npm install mssql
-```
+   ```sh
+   npm init
+   npm install express
+   npm install nodemon
+   npm install msnodesqlv8
+   npm install mssql
+   npm install ejs
+   ```
 
 3. Type in the following in your browser
 
-```sh
-localhost:1337
-```
+   ```sh
+   localhost:1337
+   ```
 
 ## 💻 Built Using <a name="built_using"></a>
 
