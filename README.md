@@ -40,17 +40,8 @@ To get a local copy up and running follow these simple steps.
 
 ```sh
 npm init
-```
-
-```sh
 npm install express
-```
-
-```sh
 npm install msnodesqlv8
-```
-
-```sh
 npm install mssql
 ```
 
@@ -76,4 +67,4 @@ localhost:1337
 ## 📋 Presentation and Documentation <a name="documentation"></a>
 
 - [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/pmdyakov18_codingburgas_bg/EcXHPUMsTYRPhhH-5eqNfJYBX1LT0W1euS-y__2uTEp_hg?e=yGbNxA)
-- [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/pmdyakov18_codingburgas_bg/EXqvTR5q9_NMk1pKlSuFAxEB19bsGgigQhrZZq10XYY9Dg?e=oBXanL)
+- [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/pmdyakov18_codingburgas_bg/Ed9MNQnMW_NNl7XrSaIfEO8Brv3w-kh1FsZ-fLOl0vDeYw?e=5gRkcV)
