@@ -24,7 +24,7 @@
 
 ## 📖 Description <a name="description"></a>
 
-This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap, JavaScript, Express and MSSQL for the database.
+This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap, JavaScript, Node JS and MSSQL for the database.
 
 ## 📮 Getting Started <a name="installation"></a>
 
@@ -58,7 +58,8 @@ To get a local copy up and running follow these simple steps.
 - [HTML](https://html.com/) - Website Skeleton
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Website Design
 - [Bootstrap](https://getbootstrap.com/) - Website Design
-- [Node JS](https://nodejs.org/en/) - Connection between the database and the website
+- [Node JS](https://nodejs.org/en/) - Website Server Connection
+- [EJS](https://ejs.co/) - Dynamic Website Elements
 - [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Database
 
 ## 👥 Authors <a name="authors"></a>
