@@ -2,7 +2,11 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
+//Use the public folder as the external file folder
 app.use(express.static("public"));
+
+//Set the view engine as ejs, which sets the default file type as .ejs
+app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
     res.render("index.ejs");

@@ -1,12 +1,11 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
-    body {
-        background-image: url('TjUG3t2.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-       
-        background-size: cover;
-      }
-      article {
+article {
     background-color: rgba(0, 0, 0, 0.322);
     margin-top: 200px;
     margin-left: auto;
@@ -17,11 +16,16 @@
     border-radius: 2%;
     border-color: rgba(0, 0, 0, 0.26);
 }
+
 #intro {
     width: 75%;
     color: rgba(255, 255, 255, 0.795);
 }
+
 #info {
     font-size: 25px;
 }
- 
+
+card {
+    align-content: center;
+}
