@@ -1,6 +1,25 @@
-body {
-    background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+html {
+    background-color: #E9ECEF;
+}
+
+.divider {
+    position: relative;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.table-design {
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
 }
