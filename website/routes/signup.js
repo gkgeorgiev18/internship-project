@@ -3,11 +3,19 @@ const router = express.Router();
 const sql = require("mssql/msnodesqlv8");
 const { config } = require("../db/config");
 
-router.get("/", function(req, res) {
+let bodyParser = require("body-parser");
+
+// Parse application/json
+router.use(bodyParser.json());
+
+// Parse application/x-www-form-urlencoded
+router.use(bodyParser.urlencoded({ extended: true }));
+
+router.get("/signup", function(req, res) {
     res.render("signup");
 });
 
-router.post("/", async function(req, res) {
+router.post("/signup", async function(req, res) {
     try {
         console.log(req.body);
         //const crypto = require("crypto");
@@ -33,6 +41,8 @@ router.post("/", async function(req, res) {
             );
         } else {}
     }
+
+    res.redirect("signup");
 });
 
 module.exports = router;

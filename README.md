@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/gkgeorgiev18/internship-project" rel="noopener">
-    <img src="/public/images/logonotext.png" alt="Logo" width="200" height="200">
+    <img src="/website/public/images/logonotext.png" alt="Logo" width="200" height="200">
   </a>
 </p>
 
@@ -45,6 +45,7 @@ To get a local copy up and running follow these simple steps.
    npm install msnodesqlv8
    npm install mssql
    npm install ejs
+   npm install body-parser
    ```
 
 3. Type in the following in your browser
@@ -58,7 +59,7 @@ To get a local copy up and running follow these simple steps.
 - [HTML](https://html.com/) - Website Skeleton
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Website Design
 - [Bootstrap](https://getbootstrap.com/) - Website Design
-- [Node JS](https://nodejs.org/en/) - Website Server Connection
+- [Express](https://expressjs.com/) - Website Server Connection
 - [EJS](https://ejs.co/) - Dynamic Website Elements
 - [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Database
 

@@ -7,6 +7,7 @@ var blog3Router = require("./routes/blog3");
 var indexRouter = require("./routes/index");
 var signinRouter = require("./routes/signin");
 var signupRouter = require("./routes/signup");
+var usersListRouter = require("./routes/usersList");
 var errorRouter = require("./routes/error");
 
 var app = express();
@@ -17,12 +18,13 @@ app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/blog1", blog1Router);
-app.use("/blog2", blog2Router);
-app.use("/blog3", blog3Router);
+app.use("/", blog1Router);
+app.use("/", blog2Router);
+app.use("/", blog3Router);
 app.use("/", indexRouter);
-app.use("/signin", signinRouter);
-app.use("/signup", signupRouter);
+app.use("/", signinRouter);
+app.use("/", signupRouter);
+app.use("/", usersListRouter);
 app.use("*", errorRouter);
 
 module.exports = app;
