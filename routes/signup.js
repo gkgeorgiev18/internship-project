@@ -18,9 +18,9 @@ router.get("/signup", function(req, res) {
 router.post("/signup", async function(req, res) {
     try {
         console.log(req.body);
-        //const crypto = require("crypto");
-        //const sha256sum = crypto.createHash("sha256");
-        //const passHashed = sha256sum.update(req.body.password).digest("hex");
+        const crypto = require("crypto");
+        const sha256sum = crypto.createHash("sha256");
+        const passHashed = sha256sum.update(req.body.password).digest("hex");
         const pool = await sql.connect(config);
         const result = await pool
             .request()
@@ -28,7 +28,7 @@ router.post("/signup", async function(req, res) {
             .input("email", sql.VarChar, req.body.email)
             .input("firstName", sql.VarChar, req.body.firstName)
             .input("lastName", sql.VarChar, req.body.lastName)
-            .input("passwordHash", sql.NVarChar, req.body.password)
+            .input("passwordHash", sql.NVarChar, passHashed)
             .query `INSERT INTO Users (username, email, firstName, lastName, passwordHash)
             VALUES (@username, @email, @firstName, @lastName, @passwordHash)`;
         console.log(result);

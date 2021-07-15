@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/gkgeorgiev18/internship-project" rel="noopener">
-    <img src="/website/public/images/logonotext.png" alt="Logo" width="200" height="200">
+    <img src="/public/images/logonotext.png" alt="Logo" width="200" height="200">
   </a>
 </p>
 
@@ -49,13 +49,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Type in the following commands in the command prompt
    ```sh
-   npm init
-   npm install express
-   npm install nodemon
-   npm install msnodesqlv8
-   npm install mssql
-   npm install ejs
-   npm install body-parser
+   npm install
    ```
 4. Type in the following in your browser
    ```sh

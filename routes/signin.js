@@ -11,11 +11,14 @@ router.post("/signin", async function(req, res) {
     try {
         let loggedUserInfo = {};
         console.log(req.body);
+        const crypto = require("crypto");
+        const sha256sum = crypto.createHash("sha256");
+        const passHashed = sha256sum.update(req.body.password).digest("hex");
         const pool = await sql.connect(config);
         const result = await pool
             .request()
             .input("Username", sql.VarChar, req.body.username)
-            .input("IncommingPassword", sql.NVarChar, req.body.password)
+            .input("IncommingPassword", sql.NVarChar, passHashed)
             .output("VerifiedId", sql.Int)
             .output("UsernameOut", sql.VarChar)
             .execute("LoginUser");
