@@ -25,13 +25,15 @@
 
 ## 📖 Description <a name="description"></a>
 
-This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap, JavaScript, Node JS and MSSQL for the database.
+This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with EJS, CSS, Bootstrap, Express and MSSQL was used for the database.
 
 ## 🕹️ Features <a name="features"></a>
 
 ✔️ Login and Register system
 
 ✔️ Database where users' information is stored
+
+✔️ Password hashing
 
 ## 📮 Getting Started <a name="installation"></a>
 
@@ -47,7 +49,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    cd internship-project
    ```
-3. Type in the following commands in the command prompt
+3. Install the necessary node modules
    ```sh
    npm install
    ```
@@ -58,7 +60,6 @@ To get a local copy up and running follow these simple steps.
 
 ## 💻 Built Using <a name="built_using"></a>
 
-- [HTML](https://html.com/) - Website Skeleton
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Website Design
 - [Bootstrap](https://getbootstrap.com/) - Website Design
 - [Express](https://expressjs.com/) - Website Server Connection
