@@ -61,27 +61,15 @@
                 </tr>
             </thead>
             <tbody>
+                <% for(let user of users){ %>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>dido</td>
-                    <td>dido@dido.dido</td>
-                    <td>dido</td>
-                    <td>didov</td>
+                    <th scope="row"><%=user.Id%></th>
+                    <td><%=user.username%></td>
+                    <td><%=user.email%></td>
+                    <td><%=user.firstName%></td>
+                    <td><%=user.lastName%></td>
                 </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>dido</td>
-                    <td>dido@dido.dido</td>
-                    <td>dido</td>
-                    <td>didov</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>dido</td>
-                    <td>dido@dido.dido</td>
-                    <td>dido</td>
-                    <td>didov</td>
-                </tr>
+                <% } %>
             </tbody>
         </table>
     </div>

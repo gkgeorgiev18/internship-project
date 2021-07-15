@@ -31,6 +31,8 @@ router.post("/signin", async function(req, res) {
             );
         } else {}
     }
+
+    res.redirect("signin");
 });
 
 module.exports = router;

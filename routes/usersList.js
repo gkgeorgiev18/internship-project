@@ -3,15 +3,13 @@ const router = express.Router();
 const sql = require("mssql/msnodesqlv8");
 const { config } = require("../db/config");
 
-(async() => {
+router.get("/users", async(req, res) => {
     try {
         let connection = await sql.connect(config);
         const users = await connection.request().query(`SELECT * FROM Users`);
-
-        router.get("/users", function(req, res) {
-            res.render("usersList", { users: users.recordset });
-        });
+        console.log(users.recordset);
+        res.render("usersList", { users: users.recordset });
     } catch {}
-})();
+});
 
 module.exports = router;
