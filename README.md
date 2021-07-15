@@ -17,6 +17,7 @@
 ## 📝 Table of Contents
 
 - [Description](#description)
+- [Features](#features)
 - [Getting Started](#installation)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -26,18 +27,27 @@
 
 This is our internship project for MusalaSoft which consists of a site that has blogs and a database where users' information is stored. The site is built with HTML, CSS, Bootstrap, JavaScript, Node JS and MSSQL for the database.
 
+## 🕹️ Features <a name="features"></a>
+
+### ✔️ Login and Register system
+
+### ✔️ Database where users' information is stored
+
 ## 📮 Getting Started <a name="installation"></a>
 
 To get a local copy up and running follow these simple steps.
 
-### Installation
+### 💻 Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/gkgeorgiev18/internship-project.git
    ```
-2. Type in the following commands in the command prompt
-
+2. Navigate to the root folder
+   ```sh
+   cd internship-project
+   ```
+3. Type in the following commands in the command prompt
    ```sh
    npm init
    npm install express
@@ -47,9 +57,7 @@ To get a local copy up and running follow these simple steps.
    npm install ejs
    npm install body-parser
    ```
-
-3. Type in the following in your browser
-
+4. Type in the following in your browser
    ```sh
    localhost:1337
    ```

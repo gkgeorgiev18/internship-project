@@ -2,7 +2,7 @@
     "name": "internship-project",
     "version": "1.0.0",
     "description": "<p align=\"center\">\r   <a href=\"https://github.com/gkgeorgiev18/internship-project\" rel=\"noopener\">\r     <img src=\"images/logonotext.png\" alt=\"Logo\" width=\"200\" height=\"114\">\r   </a>\r </p>",
-    "main": "website/app.js",
+    "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
