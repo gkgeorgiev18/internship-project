@@ -30,6 +30,7 @@ This is our internship project for MusalaSoft which consists of a site that has 
 ## 🕹️ Features <a name="features"></a>
 
 ✔️ Login and Register system
+
 ✔️ Database where users' information is stored
 
 ## 📮 Getting Started <a name="installation"></a>

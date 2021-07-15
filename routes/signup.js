@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const sql = require("mssql/msnodesqlv8");
-const { config } = require("../../db/config");
+const { config } = require("../db/config");
 
 let bodyParser = require("body-parser");
 
